@@ -1,0 +1,33 @@
+#app {
+  margin-left: 3%;
+}
+
+#playlistResult {
+    display: flex
+}
+
+#playlists {
+    width: 25%
+}
+
+#analysis {
+    margin-left: 2%;
+}
+
+.playlist {
+    margin-top: 3px;
+    padding: 2px;
+    background-color: rgb(134, 134, 134);
+    border: 1px solid black;
+    color: white;
+    text-align: center
+}
+
+.playlist:hover {
+    cursor: pointer;
+    background-color: rgb(100,100,100);
+}
+
+.active {
+    background-color: rgb(100,100,100)
+}
